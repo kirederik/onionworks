@@ -8,9 +8,9 @@ publishdir          = "public"
 author              = "Derik Evangelista"
 title               = "Derik Evangelista"
 pygmentsuseclasses  = true
-# disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
+disqusshortname     = "onion-works" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-92765405-1"
 theme               = "cocoa"
 
 [permalinks]
@@ -23,7 +23,7 @@ cachebuster  = true # add the current unix timestamp in query string for cache b
 dateform     = "2 Jan 2006"
 dateformfull = "Mon 2 Jan 2006 15:04:05 MST"
 description  = "Don't Panic"
-email        = "derik@onion.works"
+email        = "kirederik@gmail.com"
 faviconfile  = "img/leaf.ico"
 github       = "//github.com/kirederik"
 highlightjs  = true
@@ -34,7 +34,7 @@ selfIntro    = "" # appears in the site header when set to a non-empty string
 
 gravatar             = "76244562f2d2b88d11c6746e24f588ef"                # do not use in the same time as avatar
 # avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# highlightjslanguages = ["go"]            # additional languages not included in the "common" set
+highlightjslanguages = ["go"]            # additional languages not included in the "common" set
 
 extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.
 

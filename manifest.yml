@@ -1,0 +1,10 @@
+---
+applications:
+- name: onionworks
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  path: public
+  routes:
+  - route: onion.works
+  - route: www.onion.works
+  - route: onionworks.cfapps.io

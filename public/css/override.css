@@ -1,0 +1,64 @@
+/* override css styles of the main theme here */
+
+section.main .content .markdown li {
+    list-style-type: decimal;
+    color: #7a7a7a;
+}
+
+.about img {
+    width: 90%;
+    margin: 0!important;
+}
+
+.about p {
+    margin-bottom: 0.7em!important;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid-cell {
+    flex: 1;
+}
+
+
+/* With gutters */
+
+.grid--gutters {
+    margin: -1em 0 0 -1em;
+}
+
+.grid--gutters>.grid-cell {
+    padding: 1em 0 0 1em;
+}
+
+
+/* Alignment per row */
+
+.grid--top {
+    align-items: flex-start;
+}
+
+.grid--bottom {
+    align-items: flex-end;
+}
+
+.grid--center {
+    align-items: center;
+}
+
+
+/* Alignment per cell */
+
+.grid-cell--top {
+    align-self: flex-start;
+}
+
+.grid-cell--bottom {
+    align-self: flex-end;
+}
+
+.grid-cell--center {
+    align-self: center;
+}

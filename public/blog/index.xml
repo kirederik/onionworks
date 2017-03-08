@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Derik Evangelista</title>
+    <link>http://onion.works/blog/index.xml</link>
+    <description>Recent content in Blog on Derik Evangelista</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 27 Feb 2017 13:38:47 +0000</lastBuildDate>
+    <atom:link href="http://onion.works/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>jq cookbook</title>
+      <link>http://onion.works/blog/jq-cookbook/</link>
+      <pubDate>Mon, 27 Feb 2017 13:38:47 +0000</pubDate>
+      
+      <guid>http://onion.works/blog/jq-cookbook/</guid>
+      <description>
+
+&lt;p&gt;If you ever had to handle JSON in Bash, you probably used &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;jq&lt;/a&gt;, the lightweight and portable cli to process JSON data. Like &lt;a href=&#34;https://en.wikipedia.org/wiki/AWK&#34;&gt;awk&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Sed&#34;&gt;sed&lt;/a&gt;, jq has it&amp;rsquo;s own &lt;a href=&#34;https://stedolan.github.io/jq/manual&#34;&gt;syntax&lt;/a&gt; and it can be quite intimidating the first time you see it.&lt;/p&gt;
+
+&lt;p&gt;Rather than trying to be a complete cookbook (or a manual, or a tutorial), in this post I&amp;rsquo;ll share some useful snippets that I used in the past, and will keep updating it as I encounter new uses to the tool.&lt;/p&gt;
+
+&lt;!-- recipes --&gt;
+
+&lt;h2 id=&#34;merging&#34;&gt;Merging&lt;/h2&gt;
+
+&lt;h3 id=&#34;sum&#34;&gt;Sum&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$&amp;gt; json1=&#39;{&amp;quot;foo&amp;quot;: &amp;quot;bar&amp;quot;, &amp;quot;otherfoo&amp;quot;: 1}&#39;
+$&amp;gt; json2=&#39;{&amp;quot;bar&amp;quot;: &amp;quot;foo&amp;quot;, &amp;quot;otherfoo&amp;quot;: 2}&#39;
+$&amp;gt; echo &amp;quot;$json1&amp;quot; &amp;quot;$json2&amp;quot; | jq -s add #or &#39;.[0] + .[1]
+{
+  &amp;quot;foo&amp;quot;: &amp;quot;bar&amp;quot;,
+  &amp;quot;bar&amp;quot;: &amp;quot;foo&amp;quot;,
+  &amp;quot;otherfoo&amp;quot;: 2  # value on the right operand wins
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;recursive-merge&#34;&gt;Recursive merge&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$&amp;gt; json1=&#39;{&amp;quot;key&amp;quot;: {&amp;quot;foo&amp;quot;: &amp;quot;bar&amp;quot;, &amp;quot;bar&amp;quot;: &amp;quot;foo&amp;quot;}}&#39;
+$&amp;gt; json2=&#39;{&amp;quot;key&amp;quot;: {&amp;quot;foo&amp;quot;: &amp;quot;otherbar&amp;quot;, &amp;quot;otherbar&amp;quot;: &amp;quot;otherfoo&amp;quot;}}&#39;
+$&amp;gt; echo &amp;quot;$json1&amp;quot; &amp;quot;$json2&amp;quot; | jq -s &#39;.[0] * .[1]&#39;
+{
+  &amp;quot;key&amp;quot;: {
+    &amp;quot;foo&amp;quot;: &amp;quot;otherbar&amp;quot;, # value on the right operand wins
+    &amp;quot;bar&amp;quot;: &amp;quot;foo&amp;quot;,
+    &amp;quot;otherbar&amp;quot;: &amp;quot;otherfoo&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;arrays&#34;&gt;Arrays&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$&amp;gt; json1=&#39;{&amp;quot;foo&amp;quot;: [&amp;quot;foo&amp;quot;, &amp;quot;bar&amp;quot;]}&#39;
+$&amp;gt; json2=&#39;{&amp;quot;foo&amp;quot;: [&amp;quot;otherfoo&amp;quot;]}&#39;
+$&amp;gt; echo &amp;quot;$json1&amp;quot; &amp;quot;$json2&amp;quot; | jq -s &#39;
+    def flatten: 
+        reduce .[] as $i([]; 
+            if $i | type == &amp;quot;array&amp;quot; then 
+                . + ($i | flatten) 
+            else  
+                . + [$i] 
+            end 
+        );  
+    [.[] | to_entries] | flatten | reduce .[] as $dot
+    ({}; .[$dot.key] += $dot.value)&#39;
+{
+  &amp;quot;foo&amp;quot;: [
+    &amp;quot;foo&amp;quot;,
+    &amp;quot;bar&amp;quot;,
+    &amp;quot;otherfoo&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
