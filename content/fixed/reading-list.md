@@ -18,12 +18,14 @@ title = "Reading List"
 
 ## 2017
 
-1. [Avengers (2016) #1](http://marvel.com/comics/issue/61373/avengers_2016_1)
-1. [Avengers (2016) #1.1](http://marvel.com/comics/issue/59596/avengers_2016_1.1)
-1. [Avengers (2016) #2](http://marvel.com/comics/issue/61374/avengers_2016_2)
-1. [Avengers (2016) #2.1](http://marvel.com/comics/issue/59597/avengers_2016_2.1)
-1. [Avengers (2016) #3](http://marvel.com/comics/issue/61375/avengers_2016_3)
-1. [Detective Comics #950](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-950)
+1. Avengers (2016) [#1](http://marvel.com/comics/issue/61373/avengers_2016_1),
+[#1.1](http://marvel.com/comics/issue/59596/avengers_2016_1.1),
+[#2](http://marvel.com/comics/issue/61374/avengers_2016_2), 
+[#2.1](http://marvel.com/comics/issue/59596/avengers_2016_2.1)
+[#3](http://marvel.com/comics/issue/61375/avengers_2016_3)
+1. Detective Comics [#950](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-950), 
+[#951](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-951), 
+[#952](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-952)
 
 
 
