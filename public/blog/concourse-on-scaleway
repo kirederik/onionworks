@@ -1,0 +1,17 @@
++++
+title = "The World's cheapest Concourse Server"
+date = "2017-03-17T17:13:40Z"
+tags = concourse
+description = "Deploying Concourse on Scaleway"
++++
+
+
+# Talk about http://engineering.pivotal.io/post/worlds-smallest-concourse-server/
+
+On [The World's Smallest Concourse Server](http://engineering.pivotal.io/post/worlds-smallest-concourse-server/), 
+
+# Scaleway cost
+
+# Use let's encrypt
+
+# Deploying without bosh

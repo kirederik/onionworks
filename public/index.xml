@@ -6,8 +6,222 @@
     <description>Recent content on Derik Evangelista</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Feb 2017 13:38:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Apr 2017 10:45:23 +0100</lastBuildDate>
     <atom:link href="http://onion.works/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Terminal 101 - The Basics</title>
+      <link>http://onion.works/blog/terminal-101---the-basics/</link>
+      <pubDate>Tue, 25 Apr 2017 10:45:23 +0100</pubDate>
+      
+      <guid>http://onion.works/blog/terminal-101---the-basics/</guid>
+      <description>
+
+&lt;p&gt;Most developers out there prefer to use a Command Line Interface (CLI) over the
+usual Graphical User Interface (GUI) for various reasons, the most common ones
+being:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s &lt;em&gt;(usually)&lt;/em&gt; faster to use the CLI rather than the GUI;&lt;/li&gt;
+&lt;li&gt;You don&amp;rsquo;t need to move your hands away from the keyboard (to reach the mouse);&lt;/li&gt;
+&lt;li&gt;You can combine multiple CLI commands;&lt;/li&gt;
+&lt;li&gt;When working on a remote server, we often don&amp;rsquo;t have access to a GUI;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It does seem scary and challenging the first time you look at it, but as soon as
+you get the gist, you&amp;rsquo;ll see it&amp;rsquo;s not much different than using the normal
+interface.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start by defining what a command actually is. A &lt;strong&gt;command&lt;/strong&gt; is nothing
+more than an instruction given by the user telling the machine to do something,
+such as listing the files inside a directory or deleting a directory. Commands
+are (most of the times) issued by typing them in at the command line (the
+terminal) and then pressing the &lt;kbd&gt;↵&lt;/kbd&gt; (enter) key, which passes the
+command to the shell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shell&lt;/strong&gt; is the program that receives the command and actually executes it. On
+most Linux systems (including on Mac OSX), the default shell is the &lt;em&gt;bash&lt;/em&gt; shell.&lt;/p&gt;
+
+&lt;p&gt;Most commands also accept a pre-defined set of options, known as &lt;strong&gt;flags&lt;/strong&gt;, that
+can be passed in to change the default behaviour of the command. A flag is
+usually a single letter or words prefixed by a dash (&lt;code&gt;-&lt;/code&gt;). For example, the &lt;code&gt;rm&lt;/code&gt;
+command is used to remove a file and, by default, doesn&amp;rsquo;t ask for user
+confirmation; if used in conjunction with the &lt;code&gt;-i&lt;/code&gt;, it will ask for confirmation
+before actually deleting the file.&lt;/p&gt;
+
+&lt;p&gt;With these concepts defined, it&amp;rsquo;s time to finally open your terminal!&lt;/p&gt;
+
+&lt;h2 id=&#34;choosing-a-terminal&#34;&gt;Choosing a Terminal&lt;/h2&gt;
+
+&lt;p&gt;Unix machines usually come with a pre-installed terminal software. On Mac OSX,
+You can open it by pressing &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;space&lt;/kbd&gt; (on Linux,
+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;F2&lt;/kbd&gt;), typing &amp;ldquo;Terminal&amp;rdquo; on the box followed by
+&lt;kbd&gt;↵&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TIP: The default terminal on OSX is quite simplistic. I recommend using
+&lt;a href=&#34;https://www.iterm2.com/downloads.html&#34;&gt;ITerm2&lt;/a&gt; instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With your terminal open, it&amp;rsquo;s time to start firing some commands!&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TIP: To read the man page of a command, try typing &lt;code&gt;man command&lt;/code&gt;+&lt;kbd&gt;↵&lt;/kbd&gt;. For example: &lt;code&gt;man ls&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;ls-list-directory-contents&#34;&gt;&lt;code&gt;ls&lt;/code&gt; - List Directory Contents&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;ls [target]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TIP: when you see square brackets in a command syntax description (such as in
+the &lt;code&gt;ls [target]&lt;/code&gt; above), it means that [target] is optional.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To list the contents of a directory, type &lt;code&gt;ls&lt;/code&gt; + &lt;kbd&gt;↵&lt;/kbd&gt; in your Terminal
+window (from now on, I&amp;rsquo;ll omit the enter key after the command). You should see
+the files that exist in your &lt;strong&gt;HOME&lt;/strong&gt; directory (more on HOME later). To see a
+detailed list, you can execute &lt;code&gt;ls&lt;/code&gt; with the &lt;code&gt;-l&lt;/code&gt; flag, that is, &lt;code&gt;ls -l&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;ls command&#34; src=&#34;http://onion.works/img/terminal/ls.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also specify a directory after &lt;code&gt;ls&lt;/code&gt;, to get the list of contents of the
+directory (for example, &lt;code&gt;ls Downloads&lt;/code&gt; will show the files inside the Downloads
+directory).&lt;/p&gt;
+
+&lt;h3 id=&#34;cd-change-directory&#34;&gt;&lt;code&gt;cd&lt;/code&gt; - Change Directory&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;cd target&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To change directories, type &lt;code&gt;cd&lt;/code&gt; followed by the name of the directory you want
+&amp;ldquo;cd&amp;rdquo; in, for example, &lt;code&gt;cd Downloads&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TIP: Use the &lt;kbd&gt;TAB&lt;/kbd&gt; to auto-complete the name of the directory; For
+example, if you type &amp;ldquo;cd Down&amp;rdquo; and press &lt;kbd&gt;TAB&lt;/kbd&gt;, the shell will
+auto-complete to &amp;ldquo;cd Downloads/&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When you open a new terminal window, you&amp;rsquo;re (usually) in the HOME directory. You
+can go back to HOME at anytime by typing &lt;code&gt;cd $HOME&lt;/code&gt; or &lt;code&gt;cd ~&lt;/code&gt;. To go back to the
+previous directory you were in, use &lt;code&gt;cd -&lt;/code&gt;. You can go up one directory by using
+&lt;code&gt;..&lt;/code&gt; as the directory name.&lt;/p&gt;
+
+&lt;p&gt;It is possible to combine directories and change to a subdirectory directly. For
+example, if you have the following directory tree:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;HOME/
+└── dev/
+    └── onionworks/
+        ├──foo/
+        └── bar/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You could navigate the tree with the following commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd dev/onionworks/foo   # HOME/dev/onionworks/foo
+cd ..                   # HOME/dev/onionworks
+cd bar                  # HOME/dev/onionworks/bar 
+cd ../../               # HOME/dev
+cd ~                    # HOME
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;cd command&#34; src=&#34;http://onion.works/img/terminal/cd.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mkdir-make-directory&#34;&gt;&lt;code&gt;mkdir&lt;/code&gt; - Make Directory&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;mkdir name&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To create new directories, type &lt;code&gt;mkdir&lt;/code&gt; followed by the name of the directory
+you want to create, for example, &lt;code&gt;mkdir newdir&lt;/code&gt;. You can use the &lt;code&gt;-p&lt;/code&gt; flag to
+create multiple subdirectories at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;mkdir command&#34; src=&#34;http://onion.works/img/terminal/mkdir.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cp-copy-files&#34;&gt;&lt;code&gt;cp&lt;/code&gt; - Copy Files&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;cp source destination&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To copy files around, type &lt;code&gt;cp&lt;/code&gt; followed by the file you want to copy and the
+place you want the file to be, for example, &lt;code&gt;cp Downloads/image.png Pictures/&lt;/code&gt;.
+If the last argument is a directory (like the example), the file will be copied
+to that directory; otherwise, a new file with the provided name will be created.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cp image.png Pictures/      # will copy to Pictures/image.png
+cp image.png new_image.png  # will copy to new_image.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can copy multiple files using the &lt;code&gt;*&lt;/code&gt; symbol:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cp Pictures/* Downloads/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By default, &lt;code&gt;cp&lt;/code&gt; will now copy subdirectories. To include subdirectories, you
+can use the &lt;code&gt;-r&lt;/code&gt; flag:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls Pictures/
+&amp;gt; image.png folder/ 
+cp -r Pictures/* Downloads/
+ls Downloads
+&amp;gt; image.png folder/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;cp command&#34; src=&#34;http://onion.works/img/terminal/cp.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mv-move-files&#34;&gt;&lt;code&gt;mv&lt;/code&gt; - Move Files&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;mv source destination&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;While &lt;code&gt;cp&lt;/code&gt; copies the file &amp;ndash; i.e., creates a new file into the destination that
+has the same contents as the file on source, &lt;code&gt;mv&lt;/code&gt; will move the file (or
+directory) from source into destination &amp;ndash; i.e., the original source file will
+no longer exist after a successful &lt;code&gt;mv&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TIP: you should use &lt;code&gt;mv&lt;/code&gt; if you want to rename an existing file&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;mv command&#34; src=&#34;http://onion.works/img/terminal/mv.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rm-remove-files&#34;&gt;&lt;code&gt;rm&lt;/code&gt; - Remove Files&lt;/h3&gt;
+
+&lt;p&gt;Syntax: &lt;code&gt;rm target&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can delete files using &lt;code&gt;rm&lt;/code&gt;. Note that, by using &lt;code&gt;rm&lt;/code&gt;, the file will be
+deleted and forever gone &amp;ndash; it &lt;strong&gt;will not&lt;/strong&gt; be moved to a &amp;ldquo;Trash bin&amp;rdquo; where you
+can later restore.&lt;/p&gt;
+
+&lt;p&gt;By default, &lt;code&gt;rm&lt;/code&gt; will remove files only. Similarly to &lt;code&gt;cp&lt;/code&gt;, you can use &lt;code&gt;*&lt;/code&gt; to
+match multiple files. For example, to remove all png files from the Downloads
+directory, one can type: &lt;code&gt;rm Downloads/*.png&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to be prompted to confirm the deletion, add the &lt;code&gt;-i&lt;/code&gt; flag. To remove
+all files, including subdirectories and its contents, use the &lt;code&gt;-r&lt;/code&gt; flag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;screenshot&#34; alt=&#34;rm command&#34; src=&#34;http://onion.works/img/terminal/rm.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;It takes some time to get used, but you will soon find that it&amp;rsquo;s much faster to
+use the CLI than the GUI, but don&amp;rsquo;t worry! It does get easier from here and will
+soon retire your Finder/Explorer window in favour of a terminal. When you get
+comfortable navigating with the CLI, ensure to explore the man pages of the
+commands &amp;ndash; each command has a lot more flags than the ones explained here.
+Check back soon for more terminal tips!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Resources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linfo.org/command.html&#34;&gt;http://www.linfo.org/command.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- *This post is also available in [Portuguese](/pt/blog/terminal-basics)* --&gt;
+</description>
+    </item>
     
     <item>
       <title>jq cookbook</title>
@@ -126,10 +340,10 @@ $&amp;gt; echo &amp;quot;$json1&amp;quot; &amp;quot;$json2&amp;quot; | jq -s &#3
 
 &lt;ol&gt;
 &lt;li&gt;Avengers (2016) &lt;a href=&#34;http://marvel.com/comics/issue/61373/avengers_2016_1&#34;&gt;#1&lt;/a&gt;,
+&lt;a href=&#34;http://marvel.com/comics/issue/59596/avengers_2016_1.1&#34;&gt;#1.1&lt;/a&gt;,
 &lt;a href=&#34;http://marvel.com/comics/issue/61374/avengers_2016_2&#34;&gt;#2&lt;/a&gt;,
+&lt;a href=&#34;http://marvel.com/comics/issue/59596/avengers_2016_2.1&#34;&gt;#2.1&lt;/a&gt;
 &lt;a href=&#34;http://marvel.com/comics/issue/61375/avengers_2016_3&#34;&gt;#3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Avengers (2016) &lt;a href=&#34;http://marvel.com/comics/issue/59596/avengers_2016_1.1&#34;&gt;#1.1&lt;/a&gt;,
-&lt;a href=&#34;http://marvel.com/comics/issue/59596/avengers_2016_2.1&#34;&gt;#2.1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Detective Comics &lt;a href=&#34;http://www.dccomics.com/comics/detective-comics-2016/detective-comics-950&#34;&gt;#950&lt;/a&gt;,
 &lt;a href=&#34;http://www.dccomics.com/comics/detective-comics-2016/detective-comics-951&#34;&gt;#951&lt;/a&gt;,
 &lt;a href=&#34;http://www.dccomics.com/comics/detective-comics-2016/detective-comics-952&#34;&gt;#952&lt;/a&gt;&lt;/li&gt;

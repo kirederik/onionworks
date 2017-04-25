@@ -2,6 +2,7 @@
 applications:
 - name: onionworks
   memory: 64M
+  instances: 2
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   path: public
   routes:

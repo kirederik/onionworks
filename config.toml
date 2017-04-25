@@ -13,6 +13,13 @@ pluralizelisttitles = false
 googleAnalytics     = "UA-92765405-1"
 theme               = "cocoa"
 
+DefaultContentLanguage="en"
+[Languages]
+[Languages.en]
+weight = 1
+[Languages.pt]
+weight = 2
+
 [permalinks]
 fixed = ":title/"
 blog  = "blog/:slug/"

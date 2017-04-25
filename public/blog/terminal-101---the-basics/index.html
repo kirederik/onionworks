@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Don&#39;t Panic">
+
+<base href="http://onion.works/">
+<title>
+
+
+     Terminal 101 - The Basics 
+
+</title>
+<link rel="canonical" href="http://onion.works/blog/terminal-101---the-basics/">
+
+
+<script type="text/javascript">
+    var baseURL = 'http:\/\/onion.works\/';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="http://onion.works/css/reset.css?t=1493122528">
+    <link rel="stylesheet" href="http://onion.works/css/pygments.css?t=1493122528">
+    <link rel="stylesheet" href="http://onion.works/css/main.css?t=1493122528">
+    
+        <link rel="stylesheet" href="http://onion.works/css/override.css?t=1493122528">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://onion.works/img/leaf.ico"
+
+>
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+              <a href="http://onion.works/"><img class="avatar" src="https://gravatar.com/avatar/76244562f2d2b88d11c6746e24f588ef?s=50" /></a>
+            
+            <a href="http://onion.works/"><div class="name">Derik Evangelista</div></a>
+            
+            <nav>
+                <ul>
+                    <a href="http://onion.works/blog/"><li>Blog</li></a>
+                    <a href="http://onion.works/about/"><li>About</li></a>
+                    <a href="http://onion.works/reading-list/"><li>Reading List</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/kirederik" target="_blank" rel="noopener"><img class="icon" src="http://onion.works/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/kirederik" target="_blank" rel="noopener"><img class="icon" src="http://onion.works/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+            <a href="//linkedin.com/in/derikevangelista" target="_blank" rel="noopener"><img class="icon" src="http://onion.works/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:kirederik@gmail.com"><img class="icon" src="http://onion.works/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="http://onion.works/index.xml"><img class="icon" src="http://onion.works/img/rss.svg" alt="rss" /></a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Terminal 101 - The Basics
+
+</div>
+
+                    <div class="initials"><a href="http://onion.works/">de</a></div>
+                </div>
+                <div class="meta">
+                    <div class="date" title="Tue 25 Apr 2017 10:45:23 BST">25 Apr 2017</div>
+                    <div class="reading-time"><div class="middot"></div>6 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<p>Most developers out there prefer to use a Command Line Interface (CLI) over the
+usual Graphical User Interface (GUI) for various reasons, the most common ones
+being:</p>
+
+<ul>
+<li>It&rsquo;s <em>(usually)</em> faster to use the CLI rather than the GUI;</li>
+<li>You don&rsquo;t need to move your hands away from the keyboard (to reach the mouse);</li>
+<li>You can combine multiple CLI commands;</li>
+<li>When working on a remote server, we often don&rsquo;t have access to a GUI;</li>
+</ul>
+
+<p>It does seem scary and challenging the first time you look at it, but as soon as
+you get the gist, you&rsquo;ll see it&rsquo;s not much different than using the normal
+interface.</p>
+
+<p>Let&rsquo;s start by defining what a command actually is. A <strong>command</strong> is nothing
+more than an instruction given by the user telling the machine to do something,
+such as listing the files inside a directory or deleting a directory. Commands
+are (most of the times) issued by typing them in at the command line (the
+terminal) and then pressing the <kbd>↵</kbd> (enter) key, which passes the
+command to the shell.</p>
+
+<p><strong>Shell</strong> is the program that receives the command and actually executes it. On
+most Linux systems (including on Mac OSX), the default shell is the <em>bash</em> shell.</p>
+
+<p>Most commands also accept a pre-defined set of options, known as <strong>flags</strong>, that
+can be passed in to change the default behaviour of the command. A flag is
+usually a single letter or words prefixed by a dash (<code>-</code>). For example, the <code>rm</code>
+command is used to remove a file and, by default, doesn&rsquo;t ask for user
+confirmation; if used in conjunction with the <code>-i</code>, it will ask for confirmation
+before actually deleting the file.</p>
+
+<p>With these concepts defined, it&rsquo;s time to finally open your terminal!</p>
+
+<h2 id="choosing-a-terminal">Choosing a Terminal</h2>
+
+<p>Unix machines usually come with a pre-installed terminal software. On Mac OSX,
+You can open it by pressing <kbd>⌘</kbd>+<kbd>space</kbd> (on Linux,
+<kbd>Alt</kbd>+<kbd>F2</kbd>), typing &ldquo;Terminal&rdquo; on the box followed by
+<kbd>↵</kbd>.</p>
+
+<blockquote>
+<p>TIP: The default terminal on OSX is quite simplistic. I recommend using
+<a href="https://www.iterm2.com/downloads.html">ITerm2</a> instead.</p>
+</blockquote>
+
+<p>With your terminal open, it&rsquo;s time to start firing some commands!</p>
+
+<h2 id="basic-commands">Basic Commands</h2>
+
+<blockquote>
+<p>TIP: To read the man page of a command, try typing <code>man command</code>+<kbd>↵</kbd>. For example: <code>man ls</code>.</p>
+</blockquote>
+
+<h3 id="ls-list-directory-contents"><code>ls</code> - List Directory Contents</h3>
+
+<p>Syntax: <code>ls [target]</code>.</p>
+
+<blockquote>
+<p>TIP: when you see square brackets in a command syntax description (such as in
+the <code>ls [target]</code> above), it means that [target] is optional.</p>
+</blockquote>
+
+<p>To list the contents of a directory, type <code>ls</code> + <kbd>↵</kbd> in your Terminal
+window (from now on, I&rsquo;ll omit the enter key after the command). You should see
+the files that exist in your <strong>HOME</strong> directory (more on HOME later). To see a
+detailed list, you can execute <code>ls</code> with the <code>-l</code> flag, that is, <code>ls -l</code>.</p>
+
+<p><img class="screenshot" alt="ls command" src="http://onion.works/img/terminal/ls.png" /></p>
+
+<p>You can also specify a directory after <code>ls</code>, to get the list of contents of the
+directory (for example, <code>ls Downloads</code> will show the files inside the Downloads
+directory).</p>
+
+<h3 id="cd-change-directory"><code>cd</code> - Change Directory</h3>
+
+<p>Syntax: <code>cd target</code>.</p>
+
+<p>To change directories, type <code>cd</code> followed by the name of the directory you want
+&ldquo;cd&rdquo; in, for example, <code>cd Downloads</code>.</p>
+
+<blockquote>
+<p>TIP: Use the <kbd>TAB</kbd> to auto-complete the name of the directory; For
+example, if you type &ldquo;cd Down&rdquo; and press <kbd>TAB</kbd>, the shell will
+auto-complete to &ldquo;cd Downloads/&rdquo;</p>
+</blockquote>
+
+<p>When you open a new terminal window, you&rsquo;re (usually) in the HOME directory. You
+can go back to HOME at anytime by typing <code>cd $HOME</code> or <code>cd ~</code>. To go back to the
+previous directory you were in, use <code>cd -</code>. You can go up one directory by using
+<code>..</code> as the directory name.</p>
+
+<p>It is possible to combine directories and change to a subdirectory directly. For
+example, if you have the following directory tree:</p>
+
+<pre><code>HOME/
+└── dev/
+    └── onionworks/
+        ├──foo/
+        └── bar/
+</code></pre>
+
+<p>You could navigate the tree with the following commands:</p>
+
+<pre><code class="language-bash">cd dev/onionworks/foo   # HOME/dev/onionworks/foo
+cd ..                   # HOME/dev/onionworks
+cd bar                  # HOME/dev/onionworks/bar 
+cd ../../               # HOME/dev
+cd ~                    # HOME
+</code></pre>
+
+<p><img class="screenshot" alt="cd command" src="http://onion.works/img/terminal/cd.png" /></p>
+
+<h3 id="mkdir-make-directory"><code>mkdir</code> - Make Directory</h3>
+
+<p>Syntax: <code>mkdir name</code>.</p>
+
+<p>To create new directories, type <code>mkdir</code> followed by the name of the directory
+you want to create, for example, <code>mkdir newdir</code>. You can use the <code>-p</code> flag to
+create multiple subdirectories at the same time.</p>
+
+<p><img class="screenshot" alt="mkdir command" src="http://onion.works/img/terminal/mkdir.png" /></p>
+
+<h3 id="cp-copy-files"><code>cp</code> - Copy Files</h3>
+
+<p>Syntax: <code>cp source destination</code>.</p>
+
+<p>To copy files around, type <code>cp</code> followed by the file you want to copy and the
+place you want the file to be, for example, <code>cp Downloads/image.png Pictures/</code>.
+If the last argument is a directory (like the example), the file will be copied
+to that directory; otherwise, a new file with the provided name will be created.</p>
+
+<pre><code class="language-bash">cp image.png Pictures/      # will copy to Pictures/image.png
+cp image.png new_image.png  # will copy to new_image.png
+</code></pre>
+
+<p>You can copy multiple files using the <code>*</code> symbol:</p>
+
+<pre><code class="language-bash">cp Pictures/* Downloads/
+</code></pre>
+
+<p>By default, <code>cp</code> will now copy subdirectories. To include subdirectories, you
+can use the <code>-r</code> flag:</p>
+
+<pre><code>ls Pictures/
+&gt; image.png folder/ 
+cp -r Pictures/* Downloads/
+ls Downloads
+&gt; image.png folder/
+</code></pre>
+
+<p><img class="screenshot" alt="cp command" src="http://onion.works/img/terminal/cp.png" /></p>
+
+<h3 id="mv-move-files"><code>mv</code> - Move Files</h3>
+
+<p>Syntax: <code>mv source destination</code>.</p>
+
+<p>While <code>cp</code> copies the file &ndash; i.e., creates a new file into the destination that
+has the same contents as the file on source, <code>mv</code> will move the file (or
+directory) from source into destination &ndash; i.e., the original source file will
+no longer exist after a successful <code>mv</code>.</p>
+
+<blockquote>
+<p>TIP: you should use <code>mv</code> if you want to rename an existing file</p>
+</blockquote>
+
+<p><img class="screenshot" alt="mv command" src="http://onion.works/img/terminal/mv.png" /></p>
+
+<h3 id="rm-remove-files"><code>rm</code> - Remove Files</h3>
+
+<p>Syntax: <code>rm target</code>.</p>
+
+<p>You can delete files using <code>rm</code>. Note that, by using <code>rm</code>, the file will be
+deleted and forever gone &ndash; it <strong>will not</strong> be moved to a &ldquo;Trash bin&rdquo; where you
+can later restore.</p>
+
+<p>By default, <code>rm</code> will remove files only. Similarly to <code>cp</code>, you can use <code>*</code> to
+match multiple files. For example, to remove all png files from the Downloads
+directory, one can type: <code>rm Downloads/*.png</code>.</p>
+
+<p>If you want to be prompted to confirm the deletion, add the <code>-i</code> flag. To remove
+all files, including subdirectories and its contents, use the <code>-r</code> flag.</p>
+
+<p><img class="screenshot" alt="rm command" src="http://onion.works/img/terminal/rm.png" /></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It takes some time to get used, but you will soon find that it&rsquo;s much faster to
+use the CLI than the GUI, but don&rsquo;t worry! It does get easier from here and will
+soon retire your Finder/Explorer window in favour of a terminal. When you get
+comfortable navigating with the CLI, ensure to explore the man pages of the
+commands &ndash; each command has a lot more flags than the ones explained here.
+Check back soon for more terminal tips!</p>
+
+<hr />
+
+<p>Resources:</p>
+
+<ul>
+<li><a href="http://www.linfo.org/command.html">http://www.linfo.org/command.html</a></li>
+</ul>
+
+<!-- *This post is also available in [Portuguese](/pt/blog/terminal-basics)* -->
+
+                <br>
+                <p><a href="http://onion.works/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'onion-works';
+    var disqus_identifier = 'http:\/\/onion.works\/blog\/terminal-101---the-basics\/';
+    var disqus_title = 'Terminal 101 - The Basics';
+    var disqus_url = 'http:\/\/onion.works\/blog\/terminal-101---the-basics\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-92765405-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+
