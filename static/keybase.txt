@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/kirederik
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://onion.works
+  * I am kirederik (https://keybase.io/kirederik) on keybase.
+  * I have a public key ASAzTNA5mIUYXzGR36evQdsqB6mYNsnN_yPuGTiWavcolgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120334cd0399885185f3191dfa7af41db2a07a99836c9cdff23ee1938966af728960a",
+      "host": "keybase.io",
+      "kid": "0120334cd0399885185f3191dfa7af41db2a07a99836c9cdff23ee1938966af728960a",
+      "uid": "50929e23f0bf19517e6d4d98a3acc919",
+      "username": "kirederik"
+    },
+    "merkle_root": {
+      "ctime": 1507283675,
+      "hash": "838e3095cf2147b9115e3c106446b6fe8480e12b198727fe2521de9531be41c397f32cf6bb509621d1f2a95325047950c5c77b8a4ca9ca6e86e4c6584521036b",
+      "hash_meta": "913192fbda32a2821a16322633990f01b85fdb7f8daaee262163eac3446946bf",
+      "seqno": 1524754
+    },
+    "service": {
+      "hostname": "onion.works",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507283682,
+  "expire_in": 504576000,
+  "prev": "7c859fe484db3c4db451c6774e959f4166575a9e7444aa3d8a70bc8636981726",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgM0zQOZiFGF8xkd+nr0HbKgepmDbJzf8j7hk4lmr3KJYKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzM0Y2QwMzk5ODg1MTg1ZjMxOTFkZmE3YWY0MWRiMmEwN2E5OTgzNmM5Y2RmZjIzZWUxOTM4OTY2YWY3Mjg5NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzM0Y2QwMzk5ODg1MTg1ZjMxOTFkZmE3YWY0MWRiMmEwN2E5OTgzNmM5Y2RmZjIzZWUxOTM4OTY2YWY3Mjg5NjBhIiwidWlkIjoiNTA5MjllMjNmMGJmMTk1MTdlNmQ0ZDk4YTNhY2M5MTkiLCJ1c2VybmFtZSI6ImtpcmVkZXJpayJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzI4MzY3NSwiaGFzaCI6IjgzOGUzMDk1Y2YyMTQ3YjkxMTVlM2MxMDY0NDZiNmZlODQ4MGUxMmIxOTg3MjdmZTI1MjFkZTk1MzFiZTQxYzM5N2YzMmNmNmJiNTA5NjIxZDFmMmE5NTMyNTA0Nzk1MGM1Yzc3YjhhNGNhOWNhNmU4NmU0YzY1ODQ1MjEwMzZiIiwiaGFzaF9tZXRhIjoiOTEzMTkyZmJkYTMyYTI4MjFhMTYzMjI2MzM5OTBmMDFiODVmZGI3ZjhkYWFlZTI2MjE2M2VhYzM0NDY5NDZiZiIsInNlcW5vIjoxNTI0NzU0fSwic2VydmljZSI6eyJob3N0bmFtZSI6Im9uaW9uLndvcmtzIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwNzI4MzY4MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI3Yzg1OWZlNDg0ZGIzYzRkYjQ1MWM2Nzc0ZTk1OWY0MTY2NTc1YTllNzQ0NGFhM2Q4YTcwYmM4NjM2OTgxNzI2Iiwic2Vxbm8iOjEzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQL/V+2CQWvdoQo2zOgWWQJkkeWuV8aqXE23WSqyC26daI++Ugi/HHCsdMr+fVY4yosip+T8xNfr2HekgbnvQSgyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDhLb/Nj8QO38jl9FgjRnu/rl56vBNDL3VQFoTPEm81N6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kirederik
+
+==================================================================

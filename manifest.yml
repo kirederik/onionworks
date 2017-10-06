@@ -1,8 +1,9 @@
 ---
 applications:
 - name: onionworks
+  space: development
   memory: 64M
-  instances: 2
+  instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   path: public
   routes:
