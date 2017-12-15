@@ -1,7 +1,7 @@
 +++
 date = "2017-02-27T13:38:47Z"
+publishdate = "2017-02-27T13:38:47Z"
 title = "jq cookbook"
-
 +++
 
 If you ever had to handle JSON in Bash, you probably used [jq](https://stedolan.github.io/jq/), the lightweight and portable cli to process JSON data. Like [awk](https://en.wikipedia.org/wiki/AWK) and [sed](https://en.wikipedia.org/wiki/Sed), jq has it's own [syntax](https://stedolan.github.io/jq/manual) and it can be quite intimidating the first time you see it.

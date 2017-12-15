@@ -1,5 +1,6 @@
 +++
 date = "2017-04-25T10:45:23+01:00"
+publishdate = "2017-04-25T10:45:23+01:00"
 title = "Terminal 101 - The Basics"
 +++
 

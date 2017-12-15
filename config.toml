@@ -21,30 +21,55 @@ weight = 1
 weight = 2
 
 [permalinks]
-fixed = ":title/"
 blog  = "blog/:slug/"
+fixed = ":title"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
+name                   = "Reading List"
+weight                 = -100
+identifier             = "reading-list"
+url                    = "/reading-list/"
 
 [params]
 author       = "Derik Evangelista"
 cachebuster  = true # add the current unix timestamp in query string for cache busting css assets
 dateform     = "2 Jan 2006"
 dateformfull = "Mon 2 Jan 2006 15:04:05 MST"
-description  = "Don't Panic"
+description  = "Essays on software"
 email        = "kirederik@gmail.com"
 faviconfile  = "img/leaf.ico"
 github       = "//github.com/kirederik"
+instagram              = "//instagram.com/thebeterraba"
 highlightjs  = true
 lang         = "en"
 linkedin     = "//linkedin.com/in/derikevangelista"
 twitter      = "//twitter.com/kirederik"
-selfIntro    = "" # appears in the site header when set to a non-empty string
-
-gravatar             = "76244562f2d2b88d11c6746e24f588ef"                # do not use in the same time as avatar
-# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-highlightjslanguages = ["go"]            # additional languages not included in the "common" set
-
 extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.
+selfIntro    = "" # appears in the site header when set to a non-empty string
+latestpostscount       = 10 # how many posts to display on the home page
+# i18n_flags             = false                         # whether to display small country flags for available translations
+# px500                  = "//500px.com/username"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = "Software engineer"                            # appears in the site header when set to a non-empty string
+# mastodon               = "//example.com/@you"
+
+# highlightjsStyle     = "darcula"
+gravatar             = "76244562f2d2b88d11c6746e24f588ef"                # do not use in the same time as avatar
+highlightjslanguages = ["go"]            # additional languages not included in the "common" set
 
 # The following are DEPRECATED.
 # gatracker              = "XYZ" # use googleAnalytics instead
 initials               = "de"  # displayed on single post page; deprecated in v0.3.0.
+
