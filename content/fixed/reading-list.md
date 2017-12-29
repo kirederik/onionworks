@@ -38,7 +38,7 @@ title = "Reading List"
 1. <a rel="nofollow" href="http://amzn.to/2mxyIEL">The Lord of the Rings: The Fellowship of the Ring</a> By J. R. R. Tolkien
 1. <a target="_blank" href="http://amzn.to/2fWSdoR">The Lord of the Rings: The Two Towers</a> By J. R. R. Tolkien
 1. <a target="_blank" href="http://amzn.to/2BuwGwu">The Lord of the Rings: The Return of the King</a>, by  J. R. R. Tolkien
-1. <a target="_blank" href="http://amzn.to/2xYutF9">Memories of my Melancholy Whores</a> By Gabriel Garcia Marques
+1. <a target="_blank" href="http://amzn.to/2xYutF9">Memories of my Melancholy Whores</a> By Gabriel Garcia Márquez
 1. <a target="_blank" href="http://amzn.to/2ASPBl6">1984</a>, by George Orwell
 1. <a target="_blank" href="https://www.amazon.co.uk/gp/product/0976694026/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0976694026&linkCode=as2&tag=onionworks0d-21&linkId=413b414defe5d660dac2fd5f2f26de45">Behind Closed Doors: Secrets of Great Management</a>, by J. Rothman and E. Derby
 
