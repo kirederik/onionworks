@@ -26,7 +26,7 @@ kbd
 
 section.main .content .markdown li {
     list-style-type: decimal;
-    color: #7a7a7a;
+    /* color: #7a7a7a; */
 }
 
 .about img {
