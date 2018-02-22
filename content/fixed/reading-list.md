@@ -6,24 +6,38 @@ title = "Reading List"
 
 ### Currently Reading
 
+<!--
 > <a rel="nofollow" href="http://amzn.to/2mxxo4U" target="_blank">Helter Skelter: Fashion Unfriendly</a>, by Kyoko Okazaki
 
-> <a href="http://amzn.to/2j6Ex8o" rel="nofollow" target="_blank">Radical Candor</a>, By Kim Scott
-
-> <a href="http://amzn.to/2Cxm6T0" rel="nofollow" target="_blank">Thinking Fast and Slow</a>, By Daniel Kahneman
-
 > <a href="http://amzn.to/2BshOhX" rel="nofollow" target="_blank">Cloud Foundry: The Definitive Guide</a>, by Duncan C. E. Winn
+-->
+
+> <a href="http://amzn.to/2nLp93p" rel="nofollow" target="_blank">Moby Dick</a>, by Herman Melville
+
+> <a href="http://amzn.to/2nKJNAN" rel="nofollow" target="_blank">Principles: Life and Work</a>, by Ray Dalio
+
+> <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
+
+## 2018
+
+1. <a href="http://amzn.to/2j6Ex8o" rel="nofollow" target="_blank">Radical Candor</a>, By Kim Scott
+1. <a href="http://amzn.to/2Cxm6T0" rel="nofollow" target="_blank">Thinking Fast and Slow</a>, By Daniel Kahneman
+1. <a href="http://amzn.to/2D9PvGJ" rel="nofollow" target="_blank">First break all the rules</a>, by Marcus Buckingham
+1. <a href="http://amzn.to/2nErqhx" rel="nofollow" target="_blank">Rework</a>, by Jason Fried
+1. <a href="http://amzn.to/2FByhj6" rel="nofollow" target="_blank">Invisible Man</a>, by Ralph Ellison
+1. <a href="http://bit.ly/zero-year-pt1" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 1</a>, by Scott Snyder and Greg Capulo
+1. <a href="http://bit.ly/zero-year-pt2" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 2</a>, by Scott Snyder and Greg Capulo
 
 ## 2017
 
 1. Avengers (2016) (Kang's War) [#1](http://marvel.com/comics/issue/61373/avengers_2016_1),
-[#2](http://marvel.com/comics/issue/61374/avengers_2016_2), 
+[#2](http://marvel.com/comics/issue/61374/avengers_2016_2),
 [#3](http://marvel.com/comics/issue/61375/avengers_2016_3),
 [#4](http://marvel.com/comics/issue/61376/avengers_2016_4),
 [#5](http://marvel.com/comics/issue/61377/avengers_2016_5),
 [#6](http://marvel.com/comics/issue/61378/avengers_2016_6),
-1. Detective Comics (League of Shadows) [#950](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-950), 
-[#951](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-951), 
+1. Detective Comics (League of Shadows) [#950](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-950),
+[#951](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-951),
 [#952](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-952),
 [#953](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-953),
 [#954](http://www.dccomics.com/comics/detective-comics-2016/detective-comics-954),
