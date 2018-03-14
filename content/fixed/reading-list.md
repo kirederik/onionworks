@@ -27,6 +27,7 @@ title = "Reading List"
 1. <a href="http://amzn.to/2FByhj6" rel="nofollow" target="_blank">Invisible Man</a>, by Ralph Ellison
 1. <a href="http://bit.ly/zero-year-pt1" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 1</a>, by Scott Snyder and Greg Capulo
 1. <a href="http://bit.ly/zero-year-pt2" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 2</a>, by Scott Snyder and Greg Capulo
+1. <a href="http://amzn.to/2Il7OaT" rel="nofollow" target="_blank">The Walking Dead Vol 1: Days Gone Bye</a>, by Robert Kirkman and Tony Moore
 
 ## 2017
 

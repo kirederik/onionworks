@@ -8,7 +8,7 @@ draft = true
 
 ## Steps
 
-1. Spin up scaleway from docker image
+1. Spin up a X86 Scaleway server from docker image
   - cant deploy concourse with bosh, as there is no scaleway cpi yet
   - we could use the binary, but concourse doesnt publish ARM binaries (and I'm too lazy too build it)
 1. Download docker-compose yml from concourse website
