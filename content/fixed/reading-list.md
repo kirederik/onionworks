@@ -18,6 +18,8 @@ title = "Reading List"
 
 > <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
 
+> <a href="http://amzn.to/2FOBYpl" rel="nofollow" target="_blank">Poor People</a>, by Fyodor Dostoyevsky
+
 ## 2018
 
 1. <a href="http://amzn.to/2j6Ex8o" rel="nofollow" target="_blank">Radical Candor</a>, By Kim Scott
@@ -28,6 +30,7 @@ title = "Reading List"
 1. <a href="http://bit.ly/zero-year-pt1" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 1</a>, by Scott Snyder and Greg Capulo
 1. <a href="http://bit.ly/zero-year-pt2" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 2</a>, by Scott Snyder and Greg Capulo
 1. <a href="http://amzn.to/2Il7OaT" rel="nofollow" target="_blank">The Walking Dead Vol 1: Days Gone Bye</a>, by Robert Kirkman and Tony Moore
+1. <a href="http://amzn.to/2ptEzLe" rel="nofollow" target="_blank">Wonder Woman Vol 1: The Lies</a>, by Greg Rucka and Liam Sharpe
 
 ## 2017
 

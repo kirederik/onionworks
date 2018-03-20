@@ -11,7 +11,7 @@ title = "about"
   <div class="grid-cell">
     <p> My name is Derik Evangelista. </p> 
     <p> I live in London, UK. </p> 
-    <p> I'm a software engineer at <a href="http://pivotal.io">Pivotal</a></p> 
+    <p> I'm a Software Engineer at <a href="http://pivotal.io">Pivotal</a></p> 
     <p> I've studied Computer Science at <a href="http://www.ufpr.br/portalufpr/">UFPR</a></p> 
     <p> I've studied Artifical Intelligence applied to Education at <a href="http://www.ufpr.br/portalufpr/">UFPR.</a></p> 
     <p> I've worked with Back-end and Front-end. </p> 
