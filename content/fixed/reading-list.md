@@ -4,6 +4,7 @@ draft = false
 title = "Reading List"
 +++
 
+
 ### Currently Reading
 
 <!--
@@ -19,6 +20,8 @@ title = "Reading List"
 > <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
 
 > <a href="http://amzn.to/2FOBYpl" rel="nofollow" target="_blank">Poor People</a>, by Fyodor Dostoyevsky
+
+For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
 
 ## 2018
 
