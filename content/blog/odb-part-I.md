@@ -1,7 +1,7 @@
 +++
 title = "Service Brokers and the OSBAPI Spec"
 date = "2018-03-20T20:08:05Z"
-draft = true
+draft = false
 tags = "on-demand-services"
 
 +++
