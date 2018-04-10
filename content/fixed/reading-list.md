@@ -13,13 +13,11 @@ title = "Reading List"
 > <a href="http://amzn.to/2BshOhX" rel="nofollow" target="_blank">Cloud Foundry: The Definitive Guide</a>, by Duncan C. E. Winn
 -->
 
-> <a href="http://amzn.to/2nLp93p" rel="nofollow" target="_blank">Moby Dick</a>, by Herman Melville
-
 > <a href="http://amzn.to/2nKJNAN" rel="nofollow" target="_blank">Principles: Life and Work</a>, by Ray Dalio
 
-> <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
+> <a href="https://amzn.to/2HquAyk" rel="nofollow" target="_blank">The Double</a>, by Fyodor Dostoevsky
 
-> <a href="http://amzn.to/2FOBYpl" rel="nofollow" target="_blank">Poor People</a>, by Fyodor Dostoyevsky
+> <a href="https://amzn.to/2GLdy0s" rel="nofollow" target="_blank">The Outsider</a>, by Albert Camus
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
 
@@ -34,6 +32,9 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="http://bit.ly/zero-year-pt2" rel="nofollow" target="_blank">Legend of Batman: Zero Year Part 2</a>, by Scott Snyder and Greg Capulo
 1. <a href="http://amzn.to/2Il7OaT" rel="nofollow" target="_blank">The Walking Dead Vol 1: Days Gone Bye</a>, by Robert Kirkman and Tony Moore
 1. <a href="http://amzn.to/2ptEzLe" rel="nofollow" target="_blank">Wonder Woman Vol 1: The Lies</a>, by Greg Rucka and Liam Sharpe
+1. <a href="http://amzn.to/2nLp93p" rel="nofollow" target="_blank">Moby Dick</a>, by Herman Melville
+1. <a href="http://amzn.to/2FOBYpl" rel="nofollow" target="_blank">Poor People</a>, by Fyodor Dostoevsky
+1. <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
 
 ## 2017
 
