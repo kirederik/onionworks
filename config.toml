@@ -28,7 +28,7 @@ fixed = ":title"
 name                   = "Blog"
 weight                 = -120
 identifier             = "blog"
-url                    = "/blog/"
+url                    = "/"
 
 [[menu.main]]
 name                   = "About"
@@ -70,6 +70,5 @@ gravatar             = "76244562f2d2b88d11c6746e24f588ef"                # do no
 highlightjslanguages = ["go"]            # additional languages not included in the "common" set
 
 # The following are DEPRECATED.
-# gatracker              = "XYZ" # use googleAnalytics instead
 initials               = "de"  # displayed on single post page; deprecated in v0.3.0.
 
