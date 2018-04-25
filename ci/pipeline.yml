@@ -1,0 +1,49 @@
+---
+resources:
+- name: git-blog
+  type: git
+  source:
+    uri: https://github.com/kirederik/onionworks.git
+    branch: master
+- name: pws
+  type: cf
+  source:
+    api: https://api.run.pivotal.io
+    username: ((cf_username))
+    password: ((cf_password))
+    organization: ((cf_org))
+    space: ((cf_space))
+
+jobs:
+- name: deploy
+  serial: true
+  plan:
+  - get: git-blog
+    trigger: true
+  - task: compile
+    config:
+      platform: linux
+      image_resource:
+        type: docker-image
+        source:
+          repository: golang
+      inputs:
+      - name: git-blog
+      outputs:
+      - name: compiled
+      run:
+        path: bash
+        args:
+        - -c
+        - |
+          set -eux
+          cp -r git-blog/* compiled
+          wget https://github.com/gohugoio/hugo/releases/download/v0.40.1/hugo_0.40.1_Linux-64bit.tar.gz
+          tar -xzvf hugo_0.40.1_Linux-64bit.tar.gz
+          chmod +x hugo
+          cd compiled
+          ../hugo
+  - put: pws
+    params:
+      manifest: compiled
+      current_app_name: onionworks
