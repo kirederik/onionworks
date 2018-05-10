@@ -2,8 +2,7 @@
 title = "Service Brokers and the OSBAPI Spec"
 date = "2018-03-20T20:08:05Z"
 draft = false
-tags = "on-demand-services"
-
+tags = ["on-demand-service-broker", "cloud-foundry"]
 +++
 
 One of the advantages of using Cloud Foundry as your Platform as a Service of
@@ -36,7 +35,7 @@ should be implemented by the broker:
 
 Note that, by writing a service broker that speaks OSBAPI, you will
 automatically write a broker that works both with Cloud Foundry and Kubernetes,
-as both Cloud Foundry Marketplace and Kubernetes the [Service
+as the Cloud Foundry Marketplace and the Kubernetes [Service
 Catalog](https://kubernetes.io/docs/concepts/service-catalog/) interact
 with brokers through the OSBAPI specification.
 

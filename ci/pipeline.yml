@@ -42,7 +42,7 @@ jobs:
           tar -xzvf hugo_0.40.1_Linux-64bit.tar.gz
           chmod +x hugo
           cd compiled
-          ../hugo
+          ../hugo -t cocoa
   - put: pws
     params:
       manifest: compiled
