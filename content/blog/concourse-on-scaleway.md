@@ -1,7 +1,7 @@
 +++
 title = "The world's cheapest concourse server"
 date = "2017-03-17T17:13:40Z"
-tags = "concourse"
+tags = ["concourse"]
 description = "How to deploy concourse on scaleway"
 draft = true
 +++
@@ -10,7 +10,8 @@ draft = true
 
 1. Spin up a X86 Scaleway server from docker image
   - cant deploy concourse with bosh, as there is no scaleway cpi yet
-  - we could use the binary, but concourse doesnt publish ARM binaries (and I'm too lazy too build it)
+	- we could use the binary, but concourse doesnt publish ARM binaries (and I'm
+		too lazy too build it)
 1. Download docker-compose yml from concourse website
   - wget https://goo.gl/yJidcM
 
@@ -23,7 +24,6 @@ On [The World's Smallest Concourse Server](http://engineering.pivotal.io/post/wo
 # Lets encrypt
 
 # Deploying without bosh
-
 
 wget https://github.com/concourse/concourse/releases/download/v2.7.0/concourse_linux_amd64
 apt-get install postgresql

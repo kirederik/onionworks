@@ -58,9 +58,8 @@ application -- we don't really care if other developers are using the same
 instance at a given point. However, for critical applications, one would prefer
 to have a dedicated instance rather than sharing one.
 
-To have that, on provision your broker could, instead of creating a database,
-deploy a brand new MySQL cluster, and then, on binding, create the database and
-user. 
+To have that, on a provision request, your broker could deploy a brand new
+MySQL cluster, and then, on binding, create the database and user. 
 
 The [On Demand Service
 Broker](https://github.com/pivotal-cf/on-demand-service-broker-release) is an
@@ -68,3 +67,5 @@ open source project that aims to reduce the overhead of writing brokers that do
 exactly that: deploy new service instances on demand. On this series of posts,
 we'll go through what is needed to create our own broker using BOSH, ODB and CF.
 Stay tuned!
+
+Next Post: [The Anatomy of the On-Demand Service Broker]({{< relref "blog/odb-part-II.md" >}}).
