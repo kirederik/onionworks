@@ -15,9 +15,12 @@ title = "Reading List"
 
 > <a href="http://amzn.to/2nKJNAN" rel="nofollow" target="_blank">Principles: Life and Work</a>, by Ray Dalio
 
-> <a href="https://amzn.to/2HZpCsv" rel="nofollow" target="_blank">The Manager's Path</a>, by Camille Fournier
-
 > <a href="https://amzn.to/2qXbPLB" rel="nofollow" target="_blank">Selected Stories</a>, by Nikolai Gogol
+
+> <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
+
+> <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture: A Craftsman's Guide to Software Structure and Design</a>, by Robert C. Martin
+ 
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
 
@@ -37,6 +40,9 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="http://amzn.to/2nLxggb" rel="nofollow" target="_blank">Domain-Driven Design Distilled</a>, by Vaughn Vernon
 1. <a href="https://amzn.to/2HquAyk" rel="nofollow" target="_blank">The Double</a>, by Fyodor Dostoevsky
 1. <a href="https://amzn.to/2GLdy0s" rel="nofollow" target="_blank">The Outsider</a>, by Albert Camus
+1. <a href="http://bit.ly/lob-born-to-kill" rel="nofollow" target="_blank">Legend of Batman: Born to Kill</a>, by Peter Tomasi and Patrick Gleason
+1. <a href="http://bit.ly/faces-of-death" rel="nofollow" target="_blank">Legend of Batman: Faces of Death</a>, by Tony S. Daniel
+1. <a href="https://amzn.to/2HZpCsv" rel="nofollow" target="_blank">The Manager's Path</a>, by Camille Fournier
 
 ## 2017
 
