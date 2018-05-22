@@ -19,7 +19,7 @@ title = "Reading List"
 
 > <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
 
-> <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture: A Craftsman's Guide to Software Structure and Design</a>, by Robert C. Martin
+> <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
  
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
