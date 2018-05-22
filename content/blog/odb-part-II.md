@@ -44,9 +44,9 @@ the following subcommands:
 1. `delete-binding`: deletes an existing binding, usually by invalidating or
    deleting users/credentials.
 
-All subcommands must be implemented, even when the output is options (e.g.
-`dashboard-url`). ODB will inspect the exit code to determine the success of the
-invocation using the following table:
+The service adapter must implement all subcommands, even when the output is options (e.g.
+`dashboard-url`; in this case, it should exit with status code 10). ODB will inspect the 
+exit code to determine the success of the invocation using the following table:
 
 | **Exit Code** | **Status**                  |
 | ------------: | :-------------------------- |
