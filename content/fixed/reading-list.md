@@ -17,8 +17,6 @@ title = "Reading List"
 
 > <a href="https://amzn.to/2qXbPLB" rel="nofollow" target="_blank">Selected Stories</a>, by Nikolai Gogol
 
-> <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
-
 > <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
  
 
@@ -43,6 +41,7 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="http://bit.ly/lob-born-to-kill" rel="nofollow" target="_blank">Legend of Batman: Born to Kill</a>, by Peter Tomasi and Patrick Gleason
 1. <a href="http://bit.ly/faces-of-death" rel="nofollow" target="_blank">Legend of Batman: Faces of Death</a>, by Tony S. Daniel
 1. <a href="https://amzn.to/2HZpCsv" rel="nofollow" target="_blank">The Manager's Path</a>, by Camille Fournier
+1. <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
 
 ## 2017
 
