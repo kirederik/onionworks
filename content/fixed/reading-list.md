@@ -18,6 +18,8 @@ title = "Reading List"
 > <a href="https://amzn.to/2qXbPLB" rel="nofollow" target="_blank">Selected Stories</a>, by Nikolai Gogol
 
 > <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
+
+> <a href="https://amzn.to/2LvROEv" rel="nofollow" target="_blank">The Landlady</a>, by Fyodor Dostoevsky
  
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
