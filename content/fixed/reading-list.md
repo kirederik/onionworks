@@ -19,8 +19,6 @@ title = "Reading List"
 
 > <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
 
-> <a href="https://amzn.to/2LvROEv" rel="nofollow" target="_blank">The Landlady</a>, by Fyodor Dostoevsky
- 
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
 
@@ -44,6 +42,7 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="http://bit.ly/faces-of-death" rel="nofollow" target="_blank">Legend of Batman: Faces of Death</a>, by Tony S. Daniel
 1. <a href="https://amzn.to/2HZpCsv" rel="nofollow" target="_blank">The Manager's Path</a>, by Camille Fournier
 1. <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
+1. <a href="https://amzn.to/2LvROEv" rel="nofollow" target="_blank">The Landlady</a>, by Fyodor Dostoevsky
 
 ## 2017
 
