@@ -43,6 +43,8 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="https://amzn.to/2HZpCsv" rel="nofollow" target="_blank">The Manager's Path</a>, by Camille Fournier
 1. <a href="https://amzn.to/2kbIJ7L" rel="nofollow" target="_blank">Do Androids Dream of Electric Sheeps?</a>, by Philip K. Dick
 1. <a href="https://amzn.to/2LvROEv" rel="nofollow" target="_blank">The Landlady</a>, by Fyodor Dostoevsky
+1. <a href="https://amzn.to/2KlpuI0" rel="nofollow" target="_blank">White Nights</a>, by Fyodor Dostoevsky
+1. <a href="https://amzn.to/2tPozo9" rel="nofollow" target="_blank">The Bookshop</a>, by Penelope Fitzgerald
 
 ## 2017
 
