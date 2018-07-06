@@ -44,7 +44,7 @@ the following subcommands:
 1. `delete-binding`: deletes an existing binding, usually by invalidating or
    deleting users/credentials.
 
-The service adapter must implement all subcommands, even when the output is options (e.g.
+The service adapter must implement all subcommands, even when the output is optional (e.g.
 `dashboard-url`; in this case, it should exit with status code 10). ODB will inspect the 
 exit code to determine the success of the invocation using the following table:
 
@@ -60,11 +60,11 @@ BOSH operator. For that reason, service adapter authors should not log
 sensitive data.
 
 If building the Service Adapter in Golang, one can use the [on-demand services
-SDK](https://github.com/pivotal-cf/on-demand-services-sdk) to speed up even more
-the development process. The SDK allows the Service Author to focus on
-implementing the logic behind the subcommands, and will handle the command line
-invocation, parsing the input parameters, serializing the response and handling
-error cases. 
+SDK](https://github.com/pivotal-cf/on-demand-services-sdk) to speed up the
+development process. The SDK allows the Service Author to focus on implementing
+the logic behind the subcommands, and will handle the command line invocation,
+parsing the input parameters, serializing the response and handling error
+cases.
 
 In the next post, we'll go deeper into the subcommands and start to write our own
 Service Adapter. See you soon!
