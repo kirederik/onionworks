@@ -14,11 +14,8 @@ title = "Reading List"
 -->
 
 > <a href="http://amzn.to/2nKJNAN" rel="nofollow" target="_blank">Principles: Life and Work</a>, by Ray Dalio
-
-> <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
-
-> <a href="https://amzn.to/2zS2vzO" rel="nofollow" target="_blank">Brave New World</a>, by Aldous Huxley
-
+> <a href="https://amzn.to/2yprR3T" rel="nofollow" target="_blank">Netochka Nezvanova</a>, by Fyoder Dostoyevsky
+> <a href="https://amzn.to/2QCNjK6" rel="nofollow" target="_blank">One hundred years of solitude</a>, by Gabriel Garcia Marquez
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
 
@@ -46,6 +43,8 @@ For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/
 1. <a href="https://amzn.to/2KlpuI0" rel="nofollow" target="_blank">White Nights</a>, by Fyodor Dostoevsky
 1. <a href="https://amzn.to/2tPozo9" rel="nofollow" target="_blank">The Bookshop</a>, by Penelope Fitzgerald
 1. <a href="https://amzn.to/2qXbPLB" rel="nofollow" target="_blank">Selected Stories</a>, by Nikolai Gogol
+1. <a href="https://amzn.to/2k9jraj" rel="nofollow" target="_blank">Clean Architecture</a>, by Robert C. Martin
+1. <a href="https://amzn.to/2zS2vzO" rel="nofollow" target="_blank">Brave New World</a>, by Aldous Huxley
 
 
 ## 2017
