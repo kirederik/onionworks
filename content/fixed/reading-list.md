@@ -14,7 +14,9 @@ title = "Reading List"
 -->
 
 > <a href="http://amzn.to/2nKJNAN" rel="nofollow" target="_blank">Principles: Life and Work</a>, by Ray Dalio
+
 > <a href="https://amzn.to/2yprR3T" rel="nofollow" target="_blank">Netochka Nezvanova</a>, by Fyoder Dostoyevsky
+
 > <a href="https://amzn.to/2QCNjK6" rel="nofollow" target="_blank">One hundred years of solitude</a>, by Gabriel Garcia Marquez
 
 For an up-to-date list, follow me on [Goodreads](https://www.goodreads.com/user/show/36478482-derik-evangelista).
